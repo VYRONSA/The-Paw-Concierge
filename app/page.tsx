@@ -1,10 +1,10 @@
 import Link from "next/link";
 
 const services = [
-  { n: "01", title: "Overnight pet sitting", text: "Comforting, attentive care in the place your pet knows best.", icon: "⌂", image: "https://images.unsplash.com/photo-1552053831-71594a27632d?auto=format&fit=crop&w=1000&q=85" },
-  { n: "02", title: "Dog walking", text: "Fresh air, movement and happy tails, at your dog’s pace.", icon: "♧", image: "https://images.unsplash.com/photo-1543466835-00a7907e9de1?auto=format&fit=crop&w=1000&q=85" },
-  { n: "03", title: "Feeding visits", text: "Reliable mealtimes, fresh water and a little extra attention.", icon: "♡", image: "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=1000&q=85" },
-  { n: "04", title: "Companionship", text: "Play, affection and company for pets who need a friendly face.", icon: "✳", image: "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=1000&q=85" },
+  { n: "01", title: "Overnight pet sitting", text: "Comforting, attentive care in the place your pet knows best.", icon: "⌂", image: "/images/overnight-pet-sitting.png" },
+  { n: "02", title: "Dog walking", text: "Fresh air, movement and happy tails, at your dog’s pace.", icon: "♧", image: "/images/dog-walking.png" },
+  { n: "03", title: "Feeding visits", text: "Reliable mealtimes, fresh water and a little extra attention.", icon: "♡", image: "/images/feeding-visits.png" },
+  { n: "04", title: "Companionship", text: "Play, affection and company for pets who need a friendly face.", icon: "✳", image: "/images/companionship.png" },
 ];
 
 export default function HomePage() {
