@@ -1,10 +1,10 @@
 import Link from "next/link";
 
 const services = [
-  {title:"Overnight Pet Sitting",text:"A reassuring presence in your pet’s own home. We help keep familiar routines going, from evening settling to morning care.",image:"https://images.unsplash.com/photo-1552053831-71594a27632d?auto=format&fit=crop&w=1000&q=85",alt:"Golden retriever resting comfortably"},
-  {title:"Dog Walking",text:"A little adventure, fresh air and movement. Walks are planned around your dog’s pace, personality and needs.",image:"https://images.unsplash.com/photo-1543466835-00a7907e9de1?auto=format&fit=crop&w=1000&q=85",alt:"Happy dog outdoors"},
-  {title:"Feeding Visits",text:"Reliable visits for mealtimes, fresh water and check-ins, with attention to the routines you share with us.",image:"https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=1000&q=85",alt:"Cat relaxing at home"},
-  {title:"Companionship",text:"Company, play and gentle attention for pets who enjoy having someone there. Every visit is adapted to their temperament.",image:"https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=1000&q=85",alt:"Dog receiving affection"},
+  {title:"Overnight Pet Sitting",text:"A reassuring presence in your pet’s own home. We help keep familiar routines going, from evening settling to morning care.",image:"/images/overnight-pet-sitting.png",alt:"Golden retriever resting comfortably"},
+  {title:"Dog Walking",text:"A little adventure, fresh air and movement. Walks are planned around your dog’s pace, personality and needs.",image:"/images/dog-walking.png",alt:"Happy dog outdoors"},
+  {title:"Feeding Visits",text:"Reliable visits for mealtimes, fresh water and check-ins, with attention to the routines you share with us.",image:"/images/feeding-visits.png",alt:"Cat relaxing at home"},
+  {title:"Companionship",text:"Company, play and gentle attention for pets who enjoy having someone there. Every visit is adapted to their temperament.",image:"/images/companionship.png",alt:"Dog receiving affection"},
 ];
 
 export default function ServicesPage(){
